@@ -111,12 +111,18 @@ body {
 
 header,
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #222;
   height: 80px;
   width: 100%;
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ccc;
   height: 250px;
   width: 100%;
@@ -129,10 +135,18 @@ main {
 }
 
 .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
 
 }
 
 .flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
